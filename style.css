@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(./bg-image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainheader{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainheader .logo img{
+    width: 120px;
+    margin-left: 60px;
+}
+
+nav{
+   width: 450px; 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.mainheader nav a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.menubtn{
+    margin-right: 60px;
+}
+
+.mainheader .menubtn a{
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to bottom left, #33ccff 32%, #0000cc 72%);
+    color:#fff;
+    padding: 10px 45px;
+    font-size: 14px;
+    text-align: center;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .left-sec{
+padding-left: 100px;
+}
+
+main .right-sec{
+    padding-right: 70px;
+}
+
+.left-sec h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #242424;
+    margin-top: 10px;
+}
+
+.left-sec h1{
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #242424;
+    margin: 12px 0;
+}
+
+.left-sec p{
+    font-size: 20px;
+}
+
+.left-sec button{
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 15px 45px;
+    background: linear-gradient(to bottom left, #33ccff 32%, #5b5bfb 72%);
+
+}
